@@ -1,0 +1,34 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Temporary & test outputs
+test_output/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & user data
+vortex_controls.db
+*.sqlite3
+*.db-journal
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
